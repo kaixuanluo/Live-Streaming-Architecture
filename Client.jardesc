@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jardesc>
+    <jar path="/home/khalid/Desktop/EXECUTABLES/Client.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/VideoStreaming/Client.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" mainClassHandleIdentifier="=VideoStreaming/src\/main\/java&lt;com.khalid.VideoStreaming{Client.java[Client" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <javaElement handleIdentifier="=VideoStreaming/src\/main\/resources"/>
+        <file path="/VideoStreaming/HLS-Stream-Creator.sh"/>
+        <file path="/VideoStreaming/.project"/>
+        <folder path="/VideoStreaming/target"/>
+        <folder path="/VideoStreaming/.settings"/>
+        <file path="/VideoStreaming/230.0.0.1"/>
+        <file path="/VideoStreaming/video.mp4"/>
+        <folder path="/VideoStreaming/icons"/>
+        <file path="/VideoStreaming/TrafficManager.jardesc"/>
+        <javaElement handleIdentifier="=VideoStreaming/src\/main\/java&lt;com.khalid.VideoStreaming{Client.java"/>
+        <file path="/VideoStreaming/pom.xml"/>
+        <javaElement handleIdentifier="=VideoStreaming/src\/test\/java"/>
+        <file path="/VideoStreaming/.classpath"/>
+        <folder path="/VideoStreaming/src"/>
+        <file path="/VideoStreaming/lesh.mp3"/>
+        <file path="/VideoStreaming/LocalServer.jardesc"/>
+    </selectedElements>
+</jardesc>
