@@ -28,16 +28,19 @@ Run the Traffic Manager </br>
 Run the local server </br>
 Run the client </br>
 
-#Primary Server Usage
+Primary Server Usage
 $ java -jar PrimaryServer.java ip_address m3u8_url
 </br>
-#Traffic Manager Usage
+Traffic Manager Usage
 $java -jar TrafficManager.java primary_server_stream_url threshold
 </br>
-#Local Server Usage
+Local Server Usage
 $java -jar LocalServer.java local_ip traffic_manager_ip traffic_manager_port
 </br>
-#Client usage
+Client usage
 $java -jar Client.java traffic_manager_ip traffic_manager_port
 
-
+#Screenshots
+![Screenshot](Images/client-3.png)
+![Screenshot](Images/client-synchronization.png)
+![Screenshot](Images/trafficmanager-3-tracking.png)
