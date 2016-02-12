@@ -19,6 +19,7 @@ and server low quality video when the traffic increases and its bandwidth drops.
 Operating System: Ubuntu 14.04 <br/>
 Web server:  Apache2 <br/>
 Programming Language: Java <br/>
+APIs Used: VLCJ API (http://capricasoftware.co.uk/#/projects/vlcj)
 Video segmentation script: HLS-Stream-Creator by Ben Tasker (https://github.com/bentasker/HLS-Stream-Creator). <br/>
 
 #Execution order of the programs 
@@ -28,16 +29,22 @@ Run the Traffic Manager </br>
 Run the local server </br>
 Run the client </br>
 
-#Primary Server Usage
+Primary Server Usage
 $ java -jar PrimaryServer.java ip_address m3u8_url
 </br>
-#Traffic Manager Usage
+Traffic Manager Usage
 $java -jar TrafficManager.java primary_server_stream_url threshold
 </br>
-#Local Server Usage
+Local Server Usage
 $java -jar LocalServer.java local_ip traffic_manager_ip traffic_manager_port
 </br>
-#Client usage
+Client usage
 $java -jar Client.java traffic_manager_ip traffic_manager_port
 
-
+#Screenshots
+First client streaming from primary server 
+![Screenshot](Images/client-3.png) <br/>
+Two clients - one streaming from primary server and the other from the secondary server
+![Screenshot](Images/client-synchronization.png) <br/>
+Traffic manager keeping track if threshold is reached by counting the clients in both servers
+![Screenshot](Images/trafficmanager-3-tracking.png)
