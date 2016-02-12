@@ -7,13 +7,13 @@ This architecture addresses one thing mainly: the efficient usage of resources d
 For example, if you are a video content provider how are you going to address the huge amount of traffic that will come from a specific region 
 during the new president's inauguration?
 
-The load balancing mechanims works by using a temporary secondary server. That server will only be used when during high traffic period in
+The load balancing mechanim works by using a temporary secondary server. That server will only be used during high traffic period in
 a specific region. Unlike other architectures, the secondary server is not a duplicate of the original server. Howerver, it streams from 
 the original server and re-streams to its own base of clients, thus reducing load on the original server. 
 
 The architecture also makes use of Apple's HLS protocol. However, instead of doing bitrate adaptation from the client side, we are doing 
 bitrate adaption from the server side. What does this mean? This will allow the server to stream good quality video when the its bandwidth is high, 
-and server low quality video when the traffic increases and its bandwidth drops. 
+and serve low quality video when the traffic increases and its bandwidth drops. 
 
 #Implementation details
 Operating System: Ubuntu 14.04 <br/>
