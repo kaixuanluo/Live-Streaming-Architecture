@@ -19,6 +19,7 @@ and server low quality video when the traffic increases and its bandwidth drops.
 Operating System: Ubuntu 14.04 <br/>
 Web server:  Apache2 <br/>
 Programming Language: Java <br/>
+APIs Used: VLCJ API (http://capricasoftware.co.uk/#/projects/vlcj)
 Video segmentation script: HLS-Stream-Creator by Ben Tasker (https://github.com/bentasker/HLS-Stream-Creator). <br/>
 
 #Execution order of the programs 
