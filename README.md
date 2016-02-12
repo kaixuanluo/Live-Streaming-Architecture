@@ -40,7 +40,9 @@ $java -jar LocalServer.java local_ip traffic_manager_ip traffic_manager_port
 </br>
 Client usage
 $java -jar Client.java traffic_manager_ip traffic_manager_port
-
+#System Architecture
+![Screenshot](Images/Streaming Architecture.png) <br/> <br/>
+![Screenshot](Images/Traffic manager (1).png) <br/>
 #Screenshots
 First client streaming from primary server 
 ![Screenshot](Images/client-3.png) <br/>
