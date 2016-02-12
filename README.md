@@ -42,6 +42,9 @@ Client usage
 $java -jar Client.java traffic_manager_ip traffic_manager_port
 
 #Screenshots
-![Screenshot](Images/client-3.png)
-![Screenshot](Images/client-synchronization.png)
+First client streaming from primary server 
+![Screenshot](Images/client-3.png) <br/>
+Two clients - one streaming from primary server and the other from the secondary server
+![Screenshot](Images/client-synchronization.png) <br/>
+Traffic manager keeping track if threshold is reached by counting the clients in both servers
 ![Screenshot](Images/trafficmanager-3-tracking.png)
