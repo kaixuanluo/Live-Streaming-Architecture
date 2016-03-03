@@ -1,7 +1,6 @@
 #Live Video Streaming Architecture 
 
-This is the implementation of a live video streaming architecture. It is the prototype of a research that I have done on video streaming
-distributed architectures. The novel idea in this research is a unique way of doing load balancing and a new way of using HTTP Live Streaming. 
+This is the implementation of a live video streaming architecture. It is the prototype of a research that I have done on video streaming architectures. The novel idea in this research is a unique way of doing load balancing and a new way of using HTTP Live Streaming. 
 
 This architecture addresses one thing mainly: the efficient usage of resources during high traffic peak periods. 
 For example, if you are a video content provider how are you going to address the huge amount of traffic that will come from a specific region 
