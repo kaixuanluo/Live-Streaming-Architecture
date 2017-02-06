@@ -11,8 +11,8 @@ a specific region. Unlike other architectures, the secondary server is not a dup
 the original server and re-streams to its own base of clients, thus reducing load on the original server. 
 
 The architecture also makes use of Apple's HLS protocol. However, instead of doing bitrate adaptation from the client side, we are doing 
-bitrate adaption from the server side. What does this mean? This will allow the server to stream good quality video when the its bandwidth is high, 
-and serve low quality video when the traffic increases and its bandwidth drops. 
+bitrate adaption from the server side. What does this mean? This will allow the server to stream good quality video when the bandwidth is high, 
+and serve low quality (but acceptable) video when the traffic increases and its bandwidth drops. 
 
 #Implementation details
 Operating System: Ubuntu 14.04 <br/>
